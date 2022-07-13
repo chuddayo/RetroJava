@@ -4,7 +4,8 @@ public class CountInFile {
 	FileCounting fc = new FileCounting();
 	for (String arg : args) {
 	    String r1 = fc.ScanTheFile(arg);
-	    System.out.printf("%s %s\n", r1, arg);
+	    System.out.printf("%s    %s\n", r1, arg);
 	}
     }
+
 }

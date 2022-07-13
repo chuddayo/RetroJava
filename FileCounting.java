@@ -54,7 +54,7 @@ public class FileCounting {
             e.printStackTrace();
         }
 
-        String result = String.format("\t%d\t%d\t%d", sentenceCount, countWord, characterCount);
+        String result = String.format("%8d%8d%8d", sentenceCount, countWord, characterCount);
         return result;
 
         }
